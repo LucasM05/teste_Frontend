@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="/Index/index.css">
+  <title>Compasso</title>
+</head>
+
+<body>
+  <div class="container w-100 mx-auto">
+    <h4 id="titulo">Faça a sua busca aqui!</h4>
+    <div class="div_busca">
+      <div class="row">
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <input type="text" id="input_nome" class="form-control" placeholder="Insira um nome..."
+              aria-describedby="botao_busca">
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button" id="botao_busca">Buscar</button>
+              <button type="button" id="botao_repos" class="btn btn-dark">Repositorio</button>
+              <button type="button" id="botao_starred" class="btn btn-dark">Estrelado</button>
+            </div>
+          </div>
+        </div>
+        <div class="container div_info">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="/FuncoesBusca/jquery-3.4.1.min.js"></script>
+  <script src="/FuncoesBusca/buscaUser.js"></script>
+  <script src="/FuncoesBusca/buscaRepos.js"></script>
+  <script src="/FuncoesBusca/buscaStarred.js"></script>
+</body>
+
+</html>

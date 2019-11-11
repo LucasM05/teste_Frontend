@@ -1,0 +1,30 @@
+
+#titulo{
+  
+  font-weight: bold;
+  margin-top: 5%;
+ 
+}
+.div_busca{
+  margin-top: 3%;
+}
+
+.botoes{
+  margin-top: 3%;
+  float: left;
+  
+}
+
+.div_info{
+  margin-top: 3%;
+  float: left;
+  
+}
+hr{
+  margin-bottom: 3%;
+}
+img{
+  margin-bottom: 3%;
+  padding-left: 0px;
+}
+
